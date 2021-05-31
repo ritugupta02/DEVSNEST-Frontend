@@ -1,0 +1,28 @@
+body{ background-color: beige;
+ 	font-family: cursive;
+     border: 100px solid rgba(255,255,255,0.15);
+     box-sizing: border-box; 
+       }
+
+ h4{ font-weight: lighter;
+ 		padding: 0%;
+ 		margin: 0;
+}
+
+h1{
+	text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+  text-align: justify;
+}
+
+img{
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border-top:1px solid black;
+			border-bottom: 2px solid #ff0000;
+			border-left:3px solid #black;
+	}
