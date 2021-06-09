@@ -1,0 +1,135 @@
+
+
+*{
+    background-color: #222831;
+    margin: 0;
+    padding:0;
+}
+
+
+
+.clock{
+ align-items: center;
+ border-radius: 50%;
+ background-image: url(L.jpg);
+ height:500px;
+ width:500px;
+ border: 15px solid rgb(33, 2, 58);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: auto;
+ margin-left: auto;
+ box-shadow: 0 10px 32px 0 rgba(209,211,233,0.37);
+ backdrop-filter: blur(4px);
+}
+
+.clock .centre{
+    background-color:white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    left:207px;
+    position: relative;
+}
+
+.clock .III{
+  background:transparent;
+  font-size: 35px;
+  font-size: 40px;
+  display: inline;
+  position: relative;
+  font-family: "Merriweather", serif;
+  color:white;
+  font-weight: 1000;
+  left:140px;
+}
+
+.clock .VI{
+  background: transparent;
+  font-size: 40px;
+  display: inline;
+  position: relative;
+  padding: 450px 0 0 0; 
+  left:-130px;
+  font-family: "Merriweather", serif;
+  color:white;
+  font-weight: 1000;
+ 
+}
+.clock .IX{
+    background: transparent;
+    font-size: 40px;
+  display: inline;
+  position: relative;
+  padding: 0 0 0 0; 
+  left:-390px;
+  font-family: "Merriweather", serif;
+  color:white;
+  font-weight: 1000;
+ }
+
+.clock .XII{
+    background: transparent;
+    font-size: 40px;
+  display: inline;
+  position: relative;
+  top:-225px; 
+  left:-235px;
+  font-family: "Merriweather", serif;
+  color:white;
+  font-weight: 1000;
+}
+.clock .hours{
+    margin: auto;
+    position: relative;
+    top: 55px;
+    left: 137px;
+    width: 9px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: 0 0;
+    transform: rotate(180deg);
+    border-radius: 5px;
+    animation: motion 43200s infinite steps(60);
+}
+
+.clock .mins{
+    margin: auto;
+    position: relative;
+    top: 80px;
+    left: 60px;
+    width: 7px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: 0 0;
+    transform: rotate(180deg);
+    border-radius: 5px;
+    animation: motion 3600s infinite steps(60);
+}
+.clock .sec{
+    margin: auto;
+    position: relative;
+    top: 123px;
+    left: -16px;
+    border-radius: 5px;
+    width: 5px;
+    height: 240px;
+    background-color: rgb(243, 2, 2);
+    transform-origin: 0 0;
+    transform: rotate(180deg);
+    
+    animation: motion 60s infinite steps(60);
+}
+@-webkit-keyframes motion {
+    100% {
+      transform: rotateZ(540deg);
+    }
+  }
+  @keyframes motion {
+    100% {
+      transform: rotateZ(540deg);
+    }
+  }
