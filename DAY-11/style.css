@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgba(85, 69, 145, 0.582);
+}
+.outerDiv{
+    width:100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(12, 1, 17, 0.897);
+
+}
+
+.innerDiv{
+  background-color: azure;
+  padding: 5px 20px;
+  height:18em;
+  width:35rem;
+  border-radius: 10px;
+  border-top:2px solid rgb(201, 17, 238);
+  border-bottom: 2px solid rgb(238, 223, 15);
+  border-left:2px solid rgb(238, 237, 240); 
+  border-right: 2px solid rgb(238, 237, 240);
+  box-shadow: -7px 5px 5px -3px rgba(231, 231, 235, 0.4), 0px 5px 10px rgba(235, 223, 57, 0.6), 7px 5px 5px -3px rgba(5, 3, 122, 0.4),0px -5px 10px rgba(194, 57, 235, 0.6);
+  backdrop-filter: blur(4px);
+  background: transparent;
+  color:azure
+ 
+}
+
+.innerDiv li{
+    margin-top: 10px;
+}
+.answers{
+    padding:30px 30px;
+    padding-bottom: 15px ;
+}
+
+.sbtBtn{ 
+ 
+ padding-left: 10px;
+}
+
+
+.SC{ 
+    padding-top: 2rem ;
+    padding-left: 55rem;
+    background-color: rgba(12, 1, 17, 0.897);
+}
+.SCORE{ 
+  height:30px;
+  width: 80px;
+  padding:5px;
+  border-radius: 10px;
+  border-top:2px solid rgb(201, 17, 238);
+  border-bottom: 2px solid rgb(238, 223, 15);
+  border-left:2px solid rgb(238, 237, 240); 
+  border-right: 2px solid rgb(238, 237, 240);
+  box-shadow: -7px 5px 5px -3px rgba(231, 231, 235, 0.4), 0px 5px 10px rgba(235, 223, 57, 0.6), 7px 5px 5px -3px rgba(5, 3, 122, 0.4),0px -5px 10px rgba(194, 57, 235, 0.6);
+  backdrop-filter: blur(4px);
+  background: transparent;
+  color:azure
+}
+
+.btn1{
+    height:30px;
+  width: 80px;
+  padding:5px;
+  border-radius: 10px;
+  border-top:2px solid rgb(201, 17, 238);
+  border-bottom: 2px solid rgb(238, 223, 15);
+  border-left:2px solid rgb(238, 237, 240); 
+  border-right: 2px solid rgb(238, 237, 240);
+  box-shadow: -7px 5px 5px -3px rgba(231, 231, 235, 0.4), 0px 5px 10px rgba(235, 223, 57, 0.6), 7px 5px 5px -3px rgba(5, 3, 122, 0.4),0px -5px 10px rgba(194, 57, 235, 0.6);
+  backdrop-filter: blur(4px);
+  background: transparent;
+  color:azure
+}
+
