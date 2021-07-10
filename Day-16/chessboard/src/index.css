@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  
+}
+
+.square{
+    border: 10px solid black;
+   
+    margin:auto;
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    width:300px;
+    height:300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.App{
+    min-height: 100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row{
+    display:flex;
+}
+.box{
+   border: 1px solid black;
+   height: 100%;
+   width:100%;
+}
+
+.row:nth-child(even) .box:nth-child(even){
+    background-color: black;
+}
+.row:nth-child(odd) .box:nth-child(odd){
+    background-color: black;
+}
