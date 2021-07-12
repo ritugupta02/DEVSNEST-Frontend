@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.App{
+    height: 400px;
+    width:450px;
+    padding:15px 13px;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll; 
+    overflow-x: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+.container{
+    border: 1px solid rgb(106, 165, 11);
+    
+    padding: 10px 10px ;
+   
+    width:380px;
+    height:110px;
+    background-color: rgb(106, 165, 11);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(83, 168, 4, 0.363) 0px 7px 7px, rgba(49, 146, 4, 0.22) 0px 7px 7px; 
+    margin-bottom:10px;
+
+}
+
+h1{
+    padding-top:10px;
+}
+
+h3{
+    padding-top: 20px;
+}
+
