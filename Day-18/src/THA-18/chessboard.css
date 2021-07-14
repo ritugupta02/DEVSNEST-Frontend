@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    
+}
+.square{
+     border: 1.5px solid black; 
+    height: 37px;
+    width:37px;
+}
+
+.board{
+    border: 15.005px solid black;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+     /* grid-template-rows: repeat(8,1fr);  */
+    width:326px;
+    height:326px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
