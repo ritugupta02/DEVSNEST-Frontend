@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    background: rgba(7, 0, 34, 0.918);
+}
+
+.btn{
+    width:200px;
+    height:70px;
+    padding:20px;
+    margin-right: 30px;
+    border-top:2px solid rgb(205, 238, 17);
+    border-bottom: 2px solid rgb(238, 223, 15);
+    border-left:2px solid rgb(175, 17, 207); 
+    border-right: 2px solid rgb(196, 13, 233);
+    box-shadow: -7px 5px 5px -3px rgba(137, 15, 207, 0.4), 0px 5px 10px rgba(235, 223, 57, 0.6), 7px 5px 5px -3px rgba(166, 6, 180, 0.4),0px -5px 10px rgba(217, 235, 57, 0.6);
+    background: transparent;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+h2{
+    margin-left: 42%;
+    /* text-shadow: violet;
+    color: rgb(51, 42, 42); */
+    text-shadow: 1px 1px 2px rgb(4, 235, 35), 0 0 1em rgb(247, 0, 255), 0 0 0.2em rgb(255, 230, 0);
+  color: white;
+  font: 1.5em Georgia, serif;
+  margin-bottom: 15%;
+}
