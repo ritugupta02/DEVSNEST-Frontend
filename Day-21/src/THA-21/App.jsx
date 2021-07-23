@@ -18,9 +18,7 @@ const App = () => {
 
     }
     function edit(i) {
-        // let item = food.find((ele) => {
-        //     return ele.i === i
-        // });
+       
         // console.log(i);
         // console.log(food[i]);
         setToggleSubmit(true);
@@ -28,9 +26,7 @@ const App = () => {
         setIndex(i);
         // console.log(toggleSubmit);
         // console.log(index);
-        // setFood(food[i].dish);
-        // dish = food[i].dish;
-        // cal = food[i].cal;
+      
 
     }
 
